@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-a = int(input('First  number = '))
-b = int(input('Second number = '))
+a = float(input('First  number = '))
+b = float(input('Second number = '))
 
 op = input('Addition, subtraction, multiplication, or division? (+|-|*|/) ')
 
