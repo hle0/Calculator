@@ -12,6 +12,9 @@ elif op == '-':
 elif op == '*':
 	print(f'Product = {a*b}')
 elif op == '/':
-	print(f'Quotient = {a/b}')
+	if b == 0:
+		print('Error: Divide by Zero')
+	else:
+		print(f'Quotient = {a/b}')
 else:
 	raise ValueError('invalid operator')
